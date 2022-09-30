@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar bg-danger">
+        <div class="container-fluid d-flex justify-content-center">
+          <span class="navbar-brand mb-0 h1 text-light"> Style Change Button </span>
+        </div>
+      </nav>
+      <div class="container-fluid mt-5">
+        <div class="col-12 d-flex">
+            <div class="col-4">
+    <button class="btn btn-danger" onclick="circle()" > Click for change </button>
+    <div class="a mt-4" id="circle"></div>
+</div>
+<div class="col-4">
+    <button class="btn btn-danger" onclick="rectangle()"> Click for change </button>
+    <div class="b mt-5" id="rectangle"></div>
+</div>
+<div class="col-4">
+    <button class="btn btn-danger" onclick="square()" > Click for change </button>
+    <div class="c mt-5" id="square" ></div>
+</div>
+
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+  <script src="app.js"></script>
+</html>

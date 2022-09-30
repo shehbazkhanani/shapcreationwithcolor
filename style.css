@@ -1,0 +1,19 @@
+.a {
+    width: 80%;
+    height: 60vh;
+    border-radius: 60%;
+    background-color: yellow;
+}
+
+.b {
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.c {
+    width: 90%;
+    height: 30vh;
+    background-color: rgb(255, 34, 234);
+    
+}
